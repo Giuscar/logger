@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "custom-logger"
+version = "1.0.0"
+description = "A custom logger based on Python's logging library"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Custom Logger Contributors"}]
+keywords = ["logger", "logging"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/custom-logger"
+Documentation = "https://github.com/yourusername/custom-logger"
+Repository = "https://github.com/yourusername/custom-logger.git"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
